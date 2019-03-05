@@ -2,4 +2,5 @@
 #!/bin/bash
 set -e
 
-psql --username "postgres" --dbname "PGRS1" < "/usr/dump_5432"
+#To dump database/schema
+psql --username "postgres" --dbname "PGRS1" < "dump_5432"
