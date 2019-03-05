@@ -1,0 +1,3 @@
+FROM postgres:9.6-alpine
+ENV POSTGRES_DB PGRS1
+EXPOSE 5432
